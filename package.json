@@ -1,0 +1,23 @@
+{
+  "name": "bootstrap-starter-template-with-express-and-ejs",
+  "version": "1.0.0",
+  "description": "..for noobs",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon src/index.js localhost 8080"
+  },
+  "dependencies": {
+    "ejs": "3.0.1",
+    "express": "4.17.1",
+    "jquery": "3.4.1",
+    "bootstrap": "4.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "1.18.4"
+  },
+  "app_config": {
+    "sitename": "My Website",
+    "description": "An express website"
+  },
+  "keywords": []
+}
